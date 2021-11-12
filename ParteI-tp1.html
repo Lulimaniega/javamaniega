@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	</head>
+
+	<body>
+		<script>
+        var metros= 25000;
+		var Transporte = ""; 
+		
+	
+		if ( metros > 0 && metros <= 1000){
+		  Transporte = "pie";
+		}else if( metros > 1000 && <= 10000 ) {
+		    Transporte = "bicicleta"; 
+		  }else if (metros > 10000 && metros <= 30000)
+		    Transporte = "colectivo";
+		  } else if (metros > 30000 && metros <= 100000)
+              Transporte = "auto";
+          }else if (metros > 100000 )
+              Transporte = "avión";
+		}
+		console.log( "Para " + metros + " metros recomendamos ir en " + transporte)
+		
+		
+		</script>
+
+	</body>
+</html>
+
+</html>
